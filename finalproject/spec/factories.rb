@@ -12,7 +12,7 @@ FactoryGirl.define do
     availability "4 hours a week"
     location "San Francisco, CA"
     portfolio_links "https://www.johndoe.com"
-    linkedin_url "https://www.linkedin/johndoe"
+    linkedin_url { Faker::Internet.domain_name}
     user
   end
 
