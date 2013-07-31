@@ -1,14 +1,15 @@
-.dash_menu {
-  width: 30%;
-  height: 80px;
-  background-color: red;
+
+
+#volunteer_menu,
+#organization_menu {
+  width: 300px;
+  background-color: #eee;
   float: left;
 }
 
 .dash_content {
-  width: 50%;
-  height: 850px;
-  background-color: purple;
+  width: 660px;
+  background-color: #a3b8bf;
   float: right;
 }
 
@@ -25,7 +26,6 @@
 .dash_menu li.projects:hover > a:before,
 .dash_menu li.projects:target > a:before,
 .dash_menu li.projects > a.active:before { background-position: -24px -24px; }
-
 
 .dash_menu li:target > .submenu {
   display:block;
