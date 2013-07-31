@@ -1,6 +1,8 @@
-.dash_menu {
+
+
+#volunteer_menu,
+#organization_menu {
   width: 300px;
-  position: fixed;
   background-color: #eee;
   float: left;
 }
@@ -24,7 +26,6 @@
 .dash_menu li.projects:hover > a:before,
 .dash_menu li.projects:target > a:before,
 .dash_menu li.projects > a.active:before { background-position: -24px -24px; }
-
 
 .dash_menu li:target > .submenu {
   display:block;
